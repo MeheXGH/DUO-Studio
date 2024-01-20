@@ -78,7 +78,7 @@ var tl2 = gsap.timeline({
       scroller: ".main",
       // markers: true,
       start: "top -70%",
-      end: "top -75",
+      end: "top -75%",
       scrub: 3
   }
 });
@@ -107,8 +107,8 @@ boxes.forEach(function(elem){
   elem.addEventListener("mouseenter", function(){
     var att = elem.getAttribute("data-img");
     
-    cur.style.width = "400px";
-    cur.style.height = "250px";
+    cur.style.width = "20vw";
+    cur.style.height = "15vw";
     cur.style.borderRadius = "0";
     cur.style.mixBlendMode = "normal";
     cur.style.backgroundColor = "transparent";
